@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+body {
+    background: #ccc;
+}
+input {
+    outline: none;
+    border: none;
+}
+[class *= "spr-"] {
+    background-image: url(../images/jingling.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}

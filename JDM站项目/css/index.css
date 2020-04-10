@@ -1,0 +1,243 @@
+
+
+
+/* 头部 */
+
+.header {
+    width: 100%;
+    height: 40px;
+    /* background: rgba(201,21,35,1); */
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+.header .logo {
+    width: 20%;
+    height: 40px;
+    background-position: 5px -103px;
+    position: relative;
+    float: left;
+}
+.header .logo .spr-logo {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    background-position: 3px -103px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+.search {
+    width: 60%;
+    height: 40px;
+    float: left;
+    position: relative;
+}
+.search input {
+    width: 100%;
+    height: 30px;
+    margin-top: 3px;
+    float: left;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+.search .spr-search{
+    width: 20%;
+    height: 30px;
+    background-position: -56px -103px;
+    position: absolute;
+}
+.header .in {
+    float: right;
+    position: absolute;
+    color: #fff;
+    top: 7px;
+    right: 20px;
+}
+
+/* 轮播图 */
+.loop {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+/* swiper轮播图 css */
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 200px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.swiper-slide img{
+    width: 100%;
+    height: 200px;
+}
+
+
+/* 导航 */
+.nav {
+    width: 100%;
+    height: 180px;
+    padding: 0 10px 0;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.nav li {
+    width: 25%;
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin: 10px 0 ;
+}
+.nav li img {
+    width: 40px;
+    height: 40px;
+}
+.nav li p {
+    font-size: 14px;
+}
+
+/* 秒杀 */
+.killBox {
+    width: 97%;
+    height: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    background: #fff;
+}
+.killBox .killBoxTop {
+    width: 100%;
+    height: 35px;
+}
+.killBoxLeft {
+    float: left;
+}
+.killBoxLeft img {
+    width: 20px;
+    height: 25px;
+    vertical-align: middle;
+}
+.killBoxCenter {
+    margin-left: 6px;
+    float: left;
+}
+.killBoxCenter .spanBg {
+    display: inline-block;
+    width: 15.39px;
+    height: 26.8px;
+    padding: 3px;
+    background: #000;
+    color: #fff;
+}
+.killBoxRight {
+    float: right;
+    /* margin-right: 10px; */
+}
+.killBox .computer {
+    width: 100%;
+}
+.killBox .computer li {
+    width: 33.3%;
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+.killBox .computer li img {
+    width: 70%;
+}
+.computer li p {
+    color: red;
+}
+.computer li p del {
+    color: #bbb;
+}
+.computer ul>li+li {
+    border-left: 1px dashed #ccc;
+}
+
+/* 超值购 */
+.shop {
+    width: 97%;
+    height: 215px;
+    margin-top: 10px;
+    margin: auto;
+}
+.shop .superShop {
+    width: 100%;
+    background-color: #ABF;
+}
+.shop h3::before {
+    content: "";
+    display: inline-block;
+    height: 8px;
+    border: 3px solid red;
+    background: red;
+    margin: -1px 4px
+}
+.shop .shopLeft{
+    width: 50%;
+    float: left;
+    border-right: 1px dashed #ccc;
+    background: #fff;
+}
+.shop .shopLeft img{
+    width: 100%;
+}
+.shop .shopRight{
+    width: 50%;
+    float: left;
+}
+.shopFont {
+    font-size: 0;
+}
+.shop .shopRight .shopRightLine {
+    border-bottom: 1px dashed #ccc;
+}
+.shop .shopRight img{
+    width: 100%;
+}
+.shopTop {
+    margin-top: 10px;
+}
+.shop1 {
+    font-size: 0;
+    border-right: 1px dashed #666;
+}
+.towLine {
+    border-bottom: 1px dashed #666;
+}
+.sl {
+    border-right: none!important;
+    background: #fec90d!important;
+}
